@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+nav{
+    height: 70px;   
+    width:96%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-left:2%;
+    padding-right: 2%;
+}
+.logo{
+    background:url("./images/logo.jpg");
+    background-size: 100%;
+    height: 66px;
+    width: 66px;
+    border-radius: 50px;
+}
+.heading{
+    color:red;
+}
+.btn-contact button{
+    height: 50px;
+    width: 90px;
+    border:none;
+    background-color:red;
+    color:white;
+    font-weight: bold;
+}
+.btn-contact button:hover{
+    background-color:white;
+    border:solid 1px red;
+    color: red;
+    transition: 500ms;
+}
+.intro-row{
+    height:90px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.avatar{
+    background:url("./images/Avatar.png");
+    background-size: 100%;
+    height: 66px;
+    width: 66px;
+    border-radius: 50px;   
+    background-repeat: no-repeat;
+    margin-right:10px;
+}
+.spec{
+    text-align: center;
+    margin-top:25px;
+}
+.icon-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 30px;
+}
